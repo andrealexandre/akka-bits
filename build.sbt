@@ -1,25 +1,26 @@
-import Dependencies.{testContainers, testContainersKafka, _}
+import Dependencies._
 
-ThisBuild / scalaVersion     := "2.13.5"
-ThisBuild / version          := "0.1.0-SNAPSHOT"
-ThisBuild / organization     := "org.aalexandre"
-ThisBuild / organizationName := "aalexandre"
+name             := "akka-bits"
+scalaVersion     := "2.13.8"
+scalacOptions    ++= Seq(
+  "-Xfatal-warnings"
+)
+version          := "0.1.0-SNAPSHOT"
+organization     := "org.aalexandre"
+organizationName := "aalexandre"
+Test / parallelExecution := true
 
-name             := "kafka-bits"
 libraryDependencies ++= Seq(
   slf4j,
   logback,
   scalaLogging,
 
-  kafkaClients,
-  kafkaStreams,
-
   akkaSlf4j,
-  akkaStream,
-  akkaStreamKafka,
-  jacksonDatabind,
+  akkaActor,
+  akkaActorTyped,
 
   scalaTest % Test,
+  akkaTestkit % Test,
+  akkaActorTestkit % Test,
   testContainers % Test,
-  testContainersKafka % Test
 )

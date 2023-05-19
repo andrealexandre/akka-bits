@@ -1,10 +1,7 @@
-# Kafka bits (in Scala)
+# Akka bits (in Scala)
 
-In this repo you can find a set of example (in the form of tests) on how to integrate with Kafka 
-in the following way:
-* Kafka clients (lowest level of integration)
-* Akka Streams (Used in consumption and production of messages)
-* Kafka streams (Use for message transformation)
+In this repo you can find a set of example (in the form of tests) on how to integrate with Akka actors.
+Samples from https://github.com/jboner/akka-training/blob/master/src/test/scala/exercises
 
 ## Run tests
 
