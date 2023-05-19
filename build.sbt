@@ -15,12 +15,12 @@ libraryDependencies ++= Seq(
   logback,
   scalaLogging,
 
-  akkaSlf4j,
-  akkaActor,
-  akkaActorTyped,
+  pekkoSlf4j,
+  pekkoActor,
+  pekkoActorTyped,
 
   scalaTest % Test,
-  akkaTestkit % Test,
-  akkaActorTestkit % Test,
+  pekkoTestkit % Test,
+  pekkoActorTestkit % Test,
   testContainers % Test,
 )

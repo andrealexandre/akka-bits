@@ -1,9 +1,9 @@
 package example
 
-import akka.actor.testkit.typed.scaladsl.ActorTestKit
-import akka.actor.typed.scaladsl.AskPattern.Askable
-import akka.actor.typed.{ActorSystem, Scheduler}
-import akka.util.Timeout
+import org.apache.pekko.actor.testkit.typed.scaladsl.ActorTestKit
+import org.apache.pekko.actor.typed.scaladsl.AskPattern.Askable
+import org.apache.pekko.actor.typed.{ActorSystem, Scheduler}
+import org.apache.pekko.util.Timeout
 import example.Bank._
 import org.scalatest.Inside.inside
 import org.scalatest.concurrent.ScalaFutures.convertScalaFuture

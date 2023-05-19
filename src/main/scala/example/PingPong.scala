@@ -1,7 +1,7 @@
 package example
 
-import akka.actor.{Actor, ActorRef}
-import akka.event.LoggingReceive
+import org.apache.pekko.actor.{Actor, ActorRef}
+import org.apache.pekko.event.LoggingReceive
 import com.typesafe.scalalogging.StrictLogging
 
 object PingPong {

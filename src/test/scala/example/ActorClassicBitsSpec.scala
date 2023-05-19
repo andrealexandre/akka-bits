@@ -1,7 +1,7 @@
 package example
 
-import akka.actor.{ActorSystem, Props}
-import akka.testkit.{TestKit, TestProbe}
+import org.apache.pekko.actor.{ActorSystem, Props}
+import org.apache.pekko.testkit.{TestKit, TestProbe}
 import example.PingPong.{Action, Bounce, PlayerActor}
 import org.scalatest.flatspec.AnyFlatSpec
 import org.scalatest.matchers.should

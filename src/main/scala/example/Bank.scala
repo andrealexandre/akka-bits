@@ -1,7 +1,7 @@
 package example
 
-import akka.actor.typed.scaladsl.{AbstractBehavior, ActorContext, Behaviors}
-import akka.actor.typed.{ActorRef, Behavior}
+import org.apache.pekko.actor.typed.scaladsl.{AbstractBehavior, ActorContext, Behaviors}
+import org.apache.pekko.actor.typed.{ActorRef, Behavior}
 
 import java.time.ZonedDateTime
 
