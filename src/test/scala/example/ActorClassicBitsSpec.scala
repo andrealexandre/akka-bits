@@ -1,7 +1,6 @@
 package example
 
 import akka.actor.{ActorSystem, Props}
-import akka.pattern.ask
 import akka.testkit.{TestKit, TestProbe}
 import example.PingPong.{Action, Bounce, PlayerActor}
 import org.scalatest.flatspec.AnyFlatSpec
