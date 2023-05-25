@@ -10,6 +10,9 @@ organization     := "org.aalexandre"
 organizationName := "aalexandre"
 Test / parallelExecution := true
 
+resolvers += "Apache OSS Snapshots" at "https://repository.apache.org/content/groups/snapshots"
+
+
 libraryDependencies ++= Seq(
   slf4j,
   logback,

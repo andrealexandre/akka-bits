@@ -3,7 +3,8 @@ import sbt._
 object Dependencies {
 
   object Versions {
-    val pekko = "2.6.18"
+//    val pekko = "0.0.+"
+    val pekko = "0.0.0+26670-56f71cdd-SNAPSHOT"
   }
 
 
